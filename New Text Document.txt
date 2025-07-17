@@ -1,0 +1,42 @@
+DevOps = Development (plan , code, test, build) + Operations(release, deploy, monitor, operate)
+
+->Collaboration between development and operations teams
+->Automation of software delivery processes
+->Continuous Integration (CI) and Continuous Delivery (CD)
+->improve quality and speed
+
+->Continuous Integration:	
+		-Automatically build and test when there is change in code
+		-Ensure the bug free code
+		-Ensures highest code quality and reduces integration issues
+		-Packaging the application(War/Jar/Docker image)
+->Continuous Development:
+		-Automatically deploy for production
+
+Life cycle:
+----------
+code->Build->Test->Deployment
+
+Tools:
+-----
+code-Git, GitHub, GitLab, Bitbucket
+Build-war/jar/Docker image
+Test-Pytest, Junit test, SonarQube
+Deploy-Apache/Tomcat, Docker , Kubernetes
+
+Git:
+---
+Its a version control source code repository
+
+
+configure GitHub Account:
+------------------------
+git config --global user.name "2300032250"
+git config --global user.email "2300032250@kluniversity.in"
+
+Git Operations:
+--------------
+
+git init		# Initialize a new Git repository in the current directory
+
+git add			# Stage all the file to be committed
